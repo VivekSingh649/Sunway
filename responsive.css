@@ -1,0 +1,113 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width:767px) {
+   
+    html{
+        font-size: 50%;
+    }
+
+    .row{
+        margin-left: calc(-.2 * var(--bs-gutter-x));
+    }
+
+    .Breadcrumbs{
+        text-align: center;
+    }
+
+    .HeroBanner .Hero-Content .banner-text{
+        font-size: 4rem;
+    }
+
+    .Specialities{
+        height: auto;
+    }
+
+    .Specialities-card{
+        margin: auto;
+    }
+
+    .Icon-box-wapper{
+        flex-wrap: wrap;
+    }
+
+    .TeamMember-wapper{
+        margin: auto;
+    }
+
+    .TeamMember-wapper .Member{
+        width: 100% !important;
+        height: auto;
+    }
+
+    .Blof-wapper .Blog{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .carousel-control-next{
+        transform: translate(0%, 0) !important;
+    }
+    .carousel-control-prev{
+        transform: translate(-0%, 0) !important;
+    }
+
+    .Testemonial-wapper{
+        width: 100%;
+    }
+
+    .ContactBox{
+        width: 100%;
+        padding: 3rem 1rem;
+    }
+
+    .Specialities_wapper{
+        width: 100%;
+    }
+    
+    .Call_to_Action{
+        padding-bottom: 2rem;
+    }
+
+    .Treatments_wapper{
+        width: auto;
+        margin-bottom: 3rem;
+    }
+    
+    .Treatments_wapper-last{
+        margin-bottom: 0;
+    }
+
+    .Docotr_card_wapper{
+        margin-bottom: 3rem;
+    }
+
+    .Docotr_card_wapper .Docotr_profile .Docotr_image{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .Docotr_card_wapper .Docotr_name{
+        row-gap: 0;
+    }
+
+    .Icon_wapper .icon_box{
+        max-width: 10rem;
+    }
+
+    .image-box{
+        width: 100% !important;
+    }
+    
+}
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
